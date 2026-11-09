@@ -1,0 +1,13 @@
+{
+  "mqtt": { "host": "localhost", "port": 1883, "username": "", "password": "" },
+  "application_id": "PUT-THE-CHIRPSTACK-APPLICATION-UUID-HERE",
+  "uplink_topic": "application/{app}/device/+/event/up",
+  "downlink_topic": "application/{app}/device/{eui}/command/down",
+  "poll_port": 3,
+  "downlink_port": 10,
+  "max_downlink_bytes": 48,
+  "users": {
+    "K7": "0000000000000001",
+    "B2": "0000000000000002"
+  }
+}
